@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.wrapper2 {
+    width: 100%;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+#titlename {
+    color: black;
+    font-style: arial;
+}
+
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+/* my code now*/
+
+body {
+     background:url('img/woods.jpg');
+     background-size: 100%;
+}
+
+h2{
+    font-family: arial;
+    color: #FBEEC1;
+    font-size: 30px;
+
+}
+h1 {
+    text-align: center;
+    font-family: arial;
+    font-size: 60px;
+}
+p{
+    text-align: center;
+    font-size: 40px;
+}
+
+/*the menu*/
+
+nav {
+            width: 100%;
+            height: 40px;
+            background-color: #B33E2D;
+            opacity: 0.9;
+           }
+           .ul {
+            text-align: center;
+           }
+           .ulli {
+            list-style: none;
+            display: inline-block;
+           } 
+           .ullia {
+            text-decoration: none;
+            font-size: 30px;
+            font-family: arial;
+            color: #DAAD86;
+           } 
+
+/*ha*/
+.onewiselogo {
+    width: 300px;
+}
+
+.hype {
+    width: 500px;
+}
+
+ /* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+} 
+
+#allprices {
+    text-align: left;
+    font-size: 20px;
+}
+
+#welcome{
+    width: 100%;
+    height: 520px;
+    background-color: #FBEEC1;
+}
+
+#videotext {
+    width: 100%;
+    height: 700px;
+    background-color: #FBEEC1;
+}
+
+#gearmessage {
+   width: 100%;
+    height: 250px;
+    background-color: #FBEEC1;
+}
+
+#diyprosil {
+    width: 100%;
+    height: 300px;
+    background-color: #FBEEC1;
+}
+
+#diypro {
+    width: 100%;
+    height: 300px;
+    background-color: #FBEEC1;
+}
+
+#aboutus {
+    width: 100%;
+    height: 600px;
+    background-color: #FBEEC1;
+}
+
+#sile {
+    font-family: arial;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
+
+#silencer {
+    width: 100%;
+    height: 1500px;
+    background-color: #FBEEC1;
+}
+
+#bipod {
+    width: 100%;
+    height: 550px;
+    background-color: #FBEEC1;
+}
+.jumping {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+ /* The sidebar menu */
+.sidebar {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+}
+
+/* The sidebar links */
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* The button used to open the sidebar */
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s; /* If you want a transition effect */
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+} 
+
+.lancerm4 {
+  width: 50%;
+}
+
+.blackwaterkg {
+  width: 50%;
+}
+
+.stingerp {
+  width: 50%;
+}
+
+.welluzi {
+  width: 50%;
+}
+

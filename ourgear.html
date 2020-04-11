@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<title>OneWiseLabs</title>
+    	 <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <script>
+            // Get the elements with class="column"
+var elements = document.getElementsByClassName("column");
+
+// Declare a loop variable
+var i;
+
+// List View
+function listView() {
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.width = "100%";
+  }
+}
+
+// Grid View
+function gridView() {
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.width = "50%";
+  }
+} 
+        </script>
+    </head>
+    <body style="max-width:100%;height:auto;">
+
+    	<div class="wrapper2" style="max-width:100%;height:auto;">
+    		<nav>
+        <ul class="ul">
+            <li class="ulli"><a class="ullia"href="index.html">Home &nbsp; &nbsp;</a></li>
+            <li class="ulli"><a class="ullia"href="videos.html">Videos &nbsp; &nbsp;</a></li>
+            <li class="ulli"><a class="ullia"href="ourgear.html">Our Gear &nbsp; &nbsp;</a></li>
+            <li class="ulli"><a class="ullia"href="diy.html">DIY &nbsp; &nbsp;</a></li>
+            <li class="ulli"><a class="ullia"href="aboutus.html">About Us</a></li>
+        </ul>   
+        </nav>  
+        <br>
+        <br>
+    	</div>
+
+
+    	<div class="wrapper" style="max-width:100%;height:auto;">
+
+
+
+        <h2>OneWiseLabs</h2>
+
+        <br>
+        <br>
+        <br>
+
+    <nav id="gearmessage">
+
+    	<h1>Our Gear</h1><br>
+        <p>Other than getting a percentage if you buy these items through our links, we are<strong> NOT </strong>being paid or sponsored to feature these, they are just what<strong> we </strong>use.</p>
+
+    </nav>
+
+
+<!-- Buttons to choose list or grid view -->
+<button onclick="gridView()"><i class="fa fa-th-large"></i> Grid</button>
+
+<button onclick="listView()"><i class="fa fa-bars"></i> List</button>
+
+<div class="row">
+  <div class="column" style="background-color:#aaa;">
+    <img class="lancerm4" src="img/lancerm4.jpg" alt="lancer tactical lt-04">
+    <h2><a href="https://amzn.to/2JqeiY0">Lancer Tactical lt-04</a></h2>
+    <p>The Lancer Tactical lt-04 AEG is what we use for our main weapon.<br>FPS: 395 Price: $131.00</p>
+  </div>
+  <div class="column" style="background-color:#ddd;">
+     <img class="blackwaterkg" src="img/blackwaterkg.jpg" alt="blackwaterkg9">
+    <h2><a href="https://amzn.to/2JqyNUd">Blackwater kg-9</a></h2>
+    <p>The  spring-powered Blackwater kg-9 is one of the secondaries we use.<br>FPS: 350 Price: $34.99</p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="column" style="background-color:#aaa;">
+    <img class="stingerp" src="img/stingerp.jpg" alt="stinger p311">
+    <h2><a href="https://amzn.to/2JAR0yN">Colt Stinger p311</a></h2>
+    <p>The spring-powered Stinger p311 is another of our secondaries.<br>FPS: 325 Price: $17.50</p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="column" style="background-color:#ddd;">
+    <img class="welluzi" src="img/welluzi.jpg" alt="welluzi">
+    <h2><a href="https://amzn.to/2JzFX8E">Well d93</a></h2>
+    <p>Although it is full auto, it does not feed well or go incredibly far.<br>FPS: 135 Price: $23.23</p>
+  </div>
+</div>
+<br>
+<p id="allprices">(all prices are from amazon.com)</p>
+
+    
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+    	
+
+    	
+
+    		<img class="onewiselogo" src="img/logo.jpg" alt="OneWiseLabs">
+
+
+
+    	
+
+    	</div>
+    </body>
+</html>
